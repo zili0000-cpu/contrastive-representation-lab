@@ -179,3 +179,14 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Downloaded datasets
+/data/
+
+# Model checkpoints
+/checkpoints/
+*.pth
+*.pt
+
+# Local development
+.DS_Store
